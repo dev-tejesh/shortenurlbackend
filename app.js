@@ -2,7 +2,9 @@ const connectDB = require("./db/connect");
 const express = require("express");
 const app = express();
 const urls = require("./routes/urls.js");
+const cors = require('cors');
 // const urls= require("./routes/urls.js");
+app.use(cors({ origin: '*' }))
 require('dotenv').config()
 
 // app.use(express.static('./public'))

@@ -18,7 +18,7 @@ const shortenUrl = async (req, res) => {
         res.json(url);
       } else {
         const shortUrl = "localhost:3000/api/v1/urls" + '/' + urlCode;
-        // const clicks = 0;
+        const clicks = 0;
         url = new Url({
           longUrl,
           shortUrl,

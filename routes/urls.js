@@ -24,15 +24,3 @@ router.get("/:code", async (req, res) => {
   }
 });
 module.exports = router;
-// const {
-//   getAllTasks,
-//   createTask,
-//   getTask,
-//   updateTask,
-//   deleteTask,
-//   create,
-// } = require("../controllers/");
-// router.route("/").get(getAllTasks).post(createTask);
-// router.route("/po").post(create);
-// router.route("/:id").get(getTask).patch(updateTask).delete(deleteTask);
-// module.exports = router;
